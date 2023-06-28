@@ -13,7 +13,7 @@ pipeline:
         spec:
           deploymentType: Kubernetes
           service:
-            serviceRef: harnessguestbook
+            serviceRef: harness_guestbook
           environment:
             environmentRef: harnessdevenv
             deployToAll: false
